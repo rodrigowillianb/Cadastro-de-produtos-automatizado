@@ -1,0 +1,20 @@
+# Pastas de ambiente virtual (onde ficam as bibliotecas instaladas)
+.venv/
+venv/
+env/
+
+# Configurações do PyCharm (são específicas do seu computador)
+.idea/
+
+# Arquivos temporários que o Python cria para rodar mais rápido
+__pycache__/
+*.pyc
+
+# Arquivos de log e sistema
+*.log
+Thumbs.db
+.DS_Store
+
+# Se você fizer automações com Selenium, ignore o driver
+chromedriver.exe
+geckodriver
